@@ -1,38 +1,30 @@
 ## Entry and Exit Criteria Document
-## Only portrait mode is in the scope for this project
+### Scope
+- Only portrait mode is included in the scope for this project.
 
-### Entry Criteria:
+### Entry Criteria
+- **Feature Completion:** All features (basic calculations, decimals, negative/positive signs, memory functions, percentage conversion, copy function) are fully implemented.
+- **Unit Testing:** Developers have conducted unit testing for individual components.
+- **Development Integration:** Integration of new features with existing functionalities is confirmed.
+- **Initial Developer Testing:** A round of testing has been performed by the development team.
+- **Documentation Review:** Requirement specifications and design layouts are reviewed for clarity and completeness.
 
-- **Feature Completion:** Ensure all features (basic calculations, decimals, negative/positive signs, memory functions,
-  percentage conversion, copy function) are fully implemented.
-- **Unit Testing**: Verify that developers have conducted unit testing for individual components.
-- **Development Integration:** Confirm the integration of new features with existing functionalities.
-- **Initial Developer Testing:** Ensure that a round of testing has been performed by the development team.
-- **Documentation Review:** Review requirement specifications and design layouts for clarity and completeness.
+### Exit Criteria
+- **Completion of All Test Cases:** All planned test cases, including newly added ones, executed with a specified pass rate.
+- **No Critical Bugs Open:** All critical defects or bugs are resolved.
+- **Regression Testing Completed:** Full regression testing ensures new changes haven’t adversely affected existing functionalities.
+- **Performance and Compatibility Testing:** Tested on various iOS devices running iOS 12 or higher.
+- **Incorporation into Automated Regression Suite:** New test cases added to the automated regression test suite.
+- **Documentation of Known Issues:** Known issues documented with potential workarounds.
 
-### Exit Criteria:
+### Types of Tests to Perform
+- **Functionality Testing**
+- **Usability Testing:** Ensuring the app is user-friendly and accessible.
+- **Compatibility Testing:** Testing on different iOS devices running iOS 12 or higher.
+- **Non-functional Testing:** Includes performance testing for rapid calculations and stress testing for consecutive operations without crashes or lags.
+- **Edge Case Testing:** Testing with extremely large numbers and consecutive operations without clearing the memory.
 
-- **Completion of All Test Cases:** All planned test cases, including newly added ones, have been executed with a
-  specified percentage pass rate.
-- **No Critical Bugs Open:** There are no critical defects or bugs unresolved.
-- **Regression Testing Completed:** Full regression testing has been conducted to ensure new changes have not adversely
-  affected existing functionalities.
-- **Performance and Compatibility Testing:** The app has been tested for performance and compatibility on various iOS
-  devices running iOS 12 or higher.
-- **Incorporation into Automated Regression Suite:** New test cases have been successfully added to the automated
-  regression test suite.
-- **Documentation of Known Issues:** Any known issues are documented, along with potential workarounds.
-
-
-## Type of tests to perform:
-- Functionality Testing
-- Usability Testing: Ensure the app is user-friendly and accessible.
-- Compatibility Testing: Test on different iOS devices running iOS 12 or higher.
-- Non-functional Testing: Performance testing for rapid calculations.<br>Stress testing for consecutive operations
-  without crashes or lags.
-- Edge Case Testing: Test with extremely large numbers, test consecutive operations without clearing the memory.
-
-## Test Cases for the Calculator App
+### Test Cases for the Calculator App
 
 | Test Case ID | Title                                                | Operation             | Preconditions                                                                                         | Steps                                                                                                                                                                                                                                                 | Expected Result                                                                                                                                                                    | Status         | UI Considerations                                                                                                                              |
 |--------------|------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
